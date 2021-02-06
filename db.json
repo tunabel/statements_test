@@ -1,0 +1,53 @@
+{
+    "statements": [
+        {
+            "status": "COMPLETED",
+            "statement_id": "99683264-0358-4313-9ed2-d7778bf975a3",
+            "bank_code": "MANDIRI_PERSONAL",
+            "start_date": "2020-01-01T00:00:00Z",
+            "end_date": "2021-03-01T00:00:00Z",
+            "account_statements": [
+                {
+                    "account": {
+                        "account_number": "425346542047",
+                        "balance": {
+                            "cur": "IDR",
+                            "num": "800222181"
+                        },
+                        "holder_name": "TESTER",
+                        "total_amount_credited": {
+                            "cur": "IDR",
+                            "num": "0"
+                        },
+                        "total_amount_debited": {
+                            "cur": "IDR",
+                            "num": "4000000"
+                        },
+                        "credit_transaction_count": 0,
+                        "debit_transaction_count": 2
+                    },
+                    "transactions": [
+                        {
+                            "date": "2021-01-01T01:00:00Z",
+                            "type": "DEBIT",
+                            "amount": {
+                                "cur": "IDR",
+                                "num": "2000000"
+                            },
+                            "descriptor": "CHARGING"
+                        },
+                        {
+                            "date": "2021-02-01T01:00:00Z",
+                            "type": "DEBIT",
+                            "amount": {
+                                "cur": "IDR",
+                                "num": "2000000"
+                            },
+                            "descriptor": "CHARGING"
+                        },
+                    ]
+                }
+            ]
+        }
+    ]
+}
